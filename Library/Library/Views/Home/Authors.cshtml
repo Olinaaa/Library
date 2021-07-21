@@ -1,0 +1,31 @@
+﻿ 
+@{
+    ViewData["Title"] = "Authors";
+}
+
+<h1>Список авторов</h1>
+
+<html>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th><p><center>Автор</center></p></th>
+                <th><p><center>Код автора</center></p></th>
+                <th><p><center>День рождения</center></p></th>
+                <th><p><center>Страна рождения</center></p></th>
+                <th></th>
+            </tr>
+            @foreach (Авторы b in Model)
+            {
+        <tr>
+            <td><p>@b.ФиоАвтора</p></td>
+            <td><p><center>@b.КодАвтора</center></p></td>
+            <td><p><center>@b.ДеньРождения</center></p></td>
+            <td><p><center>@b.Страна</center></p></td>
+        </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

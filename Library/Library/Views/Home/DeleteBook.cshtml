@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "DeleteBook";
+}
+
+<h1>Удаление книги</h1>
+<html>
+<body>
+    <div>
+        <form method="post" action="">
+            <table>
+                <tr>
+                    <td><p>Введите название книги, запись о которой хотите удалить </p></td>
+                    <td><input type="text" name="НазваниеКниги" /></td>
+                </tr>
+                <tr><td><input type="submit" value="Удалить" /> </td><td></td></tr>
+            </table>
+            <h4>@ViewData["Message"]</h4>
+        </form>
+    </div>
+</body>
+</html>
+

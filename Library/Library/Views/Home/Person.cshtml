@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Person";
+}
+
+<html>
+<body>
+    <div>
+        <h1>Просмотр информации об авторе</h1>
+        <form method="post" action="">
+            <table>
+                <tr>
+                    <td><p>Введите ФИО автора </p></td>
+                    <td><input type="text" name="ФиоАвтора" /> </td>
+                </tr>
+                <tr><td><input type="submit" value="Просмотреть" /> </td><td></td></tr>
+            </table>
+            <p>@ViewData["Message"]</p>
+        </form>
+    </div>
+</body>
+</html>

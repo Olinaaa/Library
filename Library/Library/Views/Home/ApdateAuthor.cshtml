@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "ApdateAuthor";
+}
+
+<h1>Изменение страны автора</h1>
+<html>
+<body>
+    <div>
+        <form method="post" action="">
+            <table>
+                <tr>
+                    <td><p>Введите ФИО автора, страну которого хотите изменить </p></td>
+                    <td><input type="text" name="ФиоАвтора" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введите новую страну </p></td>
+                    <td><input type="text" name="Страна" /></td>
+                </tr>
+                <tr><td><input type="submit" value="Изменить" /> </td><td></td></tr>
+            </table>
+            <h4>@ViewData["Message"]</h4>
+        </form>
+    </div>
+</body>
+</html>

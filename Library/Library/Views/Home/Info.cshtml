@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Info";
+}
+
+<h1>Список книг</h1>
+
+<html>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th><p><center>Код книги</center></p></th>
+                <th><p><center>Название книги</center></p></th>
+                <th><p><center>Год написания</center></p></th>
+                <th><p><center>Автор</center></p></th>
+                <th></th>
+            </tr>           
+            @foreach (Книги b in Model)
+            {
+                <tr>
+                    <td><p><center> @(b.КодКниги)</center></p></td>
+                    <td> @(b.НазваниеКниги)</td>
+                    <td><p><center> @(b.Год)</center></p></td>
+                    <td><p><center> @(b.ФиоАвтора)</center></p></td>
+                </tr>
+              }
+        </table>
+    </div>
+</body>
+</html>

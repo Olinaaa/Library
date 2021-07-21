@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "AddAuthor";
+}
+
+<h1>Добавление автора</h1>
+<html>
+<body>
+    <div>
+        <form method="post" action="">
+            <table>
+                <tr>
+                    <td><p>Введитe код автора </p></td>
+                    <td><input type="text" name="КодАвтора" /> </td>
+                </tr>
+                <tr>
+                    <td><p>Введите ФИО автора </p></td>
+                    <td><input type="text" name="ФиоАвтора" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введите дату рождения в формате ГГГГ-ММ-ДД </p></td>
+                    <td><input type="text" name="ДеньРождения" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введите страну </p></td>
+                    <td><input type="text" name="Страна" /></td>
+                </tr>
+                <tr><td><input type="submit" value="Добавить" /> </td><td></td></tr>
+            </table>
+            <h4>@ViewData["Message"]</h4>
+        </form>
+    </div>
+</body>
+</html>
+
