@@ -1,16 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<div>
-    <h3>Просмотр информации о книге</h3>
-    <form method="post" action="">
-        <table>
-            <tr>
-                <td><p>Введите название книги </p></td>
-                <td><input type="text" name="НазваниеКниги" /> </td>
-            </tr>
-            <tr><td><input type="submit" value="Просмотреть" /> </td><td></td></tr>
-        </table>
-        <p>@ViewData["Message"]</p>
-    </form>
-</div>
+
+<html>
+<body>
+    <div>
+        <h3>Просмотр информации о книге</h3>
+        <form method="post" action="">
+            <table>
+                <tr>
+                    <td><p>Введите название книги </p></td>
+                    <td><input type="text" name="НазваниеКниги" /> </td>
+                </tr>
+                <tr><td><input type="submit" value="Просмотреть" /> </td><td></td></tr>
+            </table>
+            <p>@ViewData["Message"]</p>
+        </form>
+    </div>
+</body>
+</html>

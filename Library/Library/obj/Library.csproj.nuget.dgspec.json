@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\общая папочка\\Учеба\\6 семестр\\производственная практика\\Library\\Library\\Library.csproj": {}
+    "C:\\Users\\alina\\Documents\\GitHub\\Library\\Library\\Library\\Library.csproj": {}
   },
   "projects": {
-    "D:\\общая папочка\\Учеба\\6 семестр\\производственная практика\\Library\\Library\\Library.csproj": {
+    "C:\\Users\\alina\\Documents\\GitHub\\Library\\Library\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\общая папочка\\Учеба\\6 семестр\\производственная практика\\Library\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\alina\\Documents\\GitHub\\Library\\Library\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "D:\\общая папочка\\Учеба\\6 семестр\\производственная практика\\Library\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\alina\\Documents\\GitHub\\Library\\Library\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\alina\\.nuget\\packages\\",
-        "outputPath": "D:\\общая папочка\\Учеба\\6 семестр\\производственная практика\\Library\\Library\\obj\\",
+        "outputPath": "C:\\Users\\alina\\Documents\\GitHub\\Library\\Library\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alina\\AppData\\Roaming\\NuGet\\NuGet.Config",
