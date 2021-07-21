@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JySxeKhMGi/4yeAx2DqCqVRVaaznuW4H44tmnn+BgQQXMbY1lFld5ZB6uwA3zz6GpLI9zaYNpWQ6JjEYmZaqtw==",
+  "dgSpecHash": "PkryAqJddqafL2Sg88WXoVms66WuPgCaOZE0tiTj5Y1CllXxmGlfyG90FdakJaMCDFwCyRFhHmorC8YGuZZddQ==",
   "success": true,
-  "projectFilePath": "D:\\общая папочка\\Учеба\\6 семестр\\производственная практика\\Library\\Library\\Library.csproj",
+  "projectFilePath": "C:\\Users\\alina\\Documents\\GitHub\\Library\\Library\\Library\\Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alina\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
